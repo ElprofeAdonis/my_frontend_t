@@ -1,0 +1,37 @@
+.sidebar {
+  color: #9a616d;
+  border-right: 1px solid #e89faf;
+  flex: 0.2;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 250px;
+  min-width: 250px;
+  padding: 20px 20px;
+  margin: 20px;
+  /* border: "1px solid red"; */
+  box-shadow: 0 0 10px #f4511e;
+}
+
+/* boton tweets */
+#tweet {
+  width: 100%;
+  padding: 12px 12px 12px 12px;
+  height: 50px;
+  background-color: #f4511e;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  text-transform: inherit;
+}
+
+#tweett {
+  width: 100%;
+  padding: 4px;
+  height: 50px;
+  background-color: #f4511e;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  text-transform: inherit;
+}

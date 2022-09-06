@@ -1,0 +1,27 @@
+input {
+  font-family: "Lato";
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#usermsg {
+  flex: 1;
+  border-radius: 8px;
+  padding: 8px 120px;
+  margin: 4px;
+  border: 1px solid #e89faf;
+  box-shadow: 0 0 10px #f4511e;
+}
+
+#submitmsg,
+#enter {
+  background: #f4511e;
+  border: 2px solid #4f4f4f;
+  color: white;
+  padding: 8px 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #f4511e;
+}

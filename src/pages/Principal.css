@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.App-header {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.App-header:active .a {
+  -webkit-animation: tiembla 0.2s 1;
+  -moz-animation: tiembla 0.2s 1;
+  -o-animation: tiembla 0.2s 1;
+  -ms-animation: tiembla 0.2s 1;
+}
+@-webkit-keyframes tiembla {
+  0% {
+    -webkit-transform: rotateZ(-5deg);
+  }
+  50% {
+    -webkit-transform: rotateZ(0deg) scale(1.4);
+  }
+  100% {
+    -webkit-transform: rotateZ(5deg);
+  }
+}
+
+.App-header img {
+  position: relative;
+  height: 750px;
+  width: 850px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+.App-header img a {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
