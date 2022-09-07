@@ -1,19 +1,31 @@
-.link {
+.sidebarOption {
   display: flex;
-  align-items: cover;
+  align-items: center;
   cursor: pointer;
-  border-radius: 30px;
 }
-.link > .MuiSvgIcon-root {
+/* no muestra los Icon */
+.SidebarOption > .MuiSvgIcon-root {
   padding: 20px;
 }
-.link:hover {
-  background-color: #e8f5fe;
-  color: #50b7f5;
-  transition: color 100ms ease-out;
+.sidebarOption > h2 {
+  font-weight: 900;
+  font-size: 16px;
+  margin-right: 16px;
+  padding: 16px;
 }
-.link > h2 {
-  font-weight: 700;
-  font-size: 20px;
-  margin-right: 20px;
+.sidebarOption:hover {
+  background-color: #4f4f4f;
+  border-radius: 16px;
+  color: #e89faf;
+  transition: color 80ms ease-out;
+}
+.sidebarOption:hover {
+  background-color: #4f4f4f;
+  border-radius: 16px;
+  color: #e89faf;
+  transition: color 80ms ease-out;
+}
+
+.sidebarOption--active {
+  color: #e89faf;
 }

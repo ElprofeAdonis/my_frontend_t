@@ -2,8 +2,7 @@
   flex: 0.3;
   min-width: fit-content;
   overflow-y: scroll;
-  /* border: "1px solid #4f4f4f"; */
-  box-shadow: 0 0 10px #f4511e;
+  border: "1px solid #4f4f4f";
 }
 .widgets::-webkit-scrollbar {
   display: none;
@@ -28,16 +27,16 @@
 }
 .widgets__widgetContainer {
   margin-top: 15px;
-  margin-left: 10px;
-  padding: 10px;
-  background-color: #f4511e;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #e89faf;
   border-radius: 20px;
 }
 .widgets__widgetContainerr {
   margin-top: 16px;
   margin-left: 20px;
   padding: 20px;
-  background-color: #16181c;
+  background-color: #000;
   border-radius: 20px;
 }
 .widgets__widgetContainer > h2 {
